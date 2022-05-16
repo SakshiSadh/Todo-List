@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/44dd64664e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="todoList">
+      <div class="header">
+        <h2>Your Todo List-</h2>
+        <br />
+      </div>
+      <form class="add">
+        <button class="addItem-btn">Add New Item</button>
+
+        <div class="hidden">
+          <input type="text" id="new-Item" placeholder="Add item..." required />
+
+          <input
+            type="text"
+            id="due-date"
+            placeholder="Due date...."
+            onfocus="(this.type='date')"
+            required
+          />
+          <a href="#0" id="add-todo">
+            <button id="add-button">ADD</button>
+          </a>
+        </div>
+      </form>
+      <div class="todoItems">
+        <ul class="todos align">
+          <li>
+            <input type="checkbox" id="todo_1" />
+            <label for="todo_1">
+              <span class="check"></span>
+              Grocery store
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+
+          <li>
+            <input type="checkbox" id="todo_2" />
+            <label for="todo_2">
+              <span class="check"></span>
+              Code a todo list
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+
+          <li>
+            <input type="checkbox" id="todo_3" />
+            <label for="todo_3">
+              <span class="check"></span>
+              Walk the dog
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+
+          <li>
+            <input type="checkbox" id="todo_4" />
+            <label for="todo_4">
+              <span class="check"></span>
+              Pay Netflix
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li>
+            <input type="checkbox" id="todo_5" />
+            <label for="todo_5">
+              <span class="check"></span>
+              Grocery store
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li>
+            <input type="checkbox" id="todo_6" />
+            <label for="todo_6">
+              <span class="check"></span>
+              Grocery store
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li>
+            <input type="checkbox" id="todo_7" />
+            <label for="todo_7">
+              <span class="check"></span>
+              Grocery store
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li>
+            <input type="checkbox" id="todo_8" />
+            <label for="todo_8">
+              <span class="check"></span>
+              Grocery store
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+          <li>
+            <input type="checkbox" id="todo_9" />
+            <label for="todo_9">
+              <span class="check"></span>
+              Grocery store
+              <span class="due">Due-15-05-2022</span>
+            </label>
+
+            <i class="far fa-trash-alt delete"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
